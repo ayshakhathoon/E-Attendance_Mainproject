@@ -127,12 +127,21 @@ echo '<script>window.location.href="updateprofilet.php";</script>';
                         <div>View attendance</div>
                     </a>
                 </li>
+                
                 <li>
                     <a href="../Teacher/studreport.php">
                         <i class="fas fa-chalkboard-teacher"></i>
                         <div>Attendance report </div>
-      
-                      
+
+
+                    </a>
+                </li>
+                <li>
+                    <a href="../Teacher/atnpercent.php">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                        <div>Attendance Percentage </div>
+
+
                     </a>
                 </li>
                 <li>
@@ -142,12 +151,18 @@ echo '<script>window.location.href="updateprofilet.php";</script>';
                     </a>
                 </li>
                 <li>
-                    <a href="#">
+                    <a href="addleave.php">
                         <i class="fa fa-info-circle"></i>
                         <div>Leave Apply</div>
                     </a>
                 </li>
-               
+                <li>
+                    <a href="status.php">
+                        <i class="fa fa-info-circle"></i>
+                        <div>Leave Status</div>
+                    </a>
+                </li>
+
                 <li>
                     <a href="../Teacher/logout.php">
                         <i class="fa fa-power-off"></i>

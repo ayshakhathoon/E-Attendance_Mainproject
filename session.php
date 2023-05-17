@@ -1,0 +1,9 @@
+<?php
+session_start();
+if(!(isset($_SESSION['adn_no']))){
+    header("location:index.php");
+}
+else{
+    $user=$_SESSION['adn_no'];
+}
+?>
